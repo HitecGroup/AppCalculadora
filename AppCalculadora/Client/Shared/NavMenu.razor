@@ -1,0 +1,83 @@
+<div class="top-row ps-3 navbar navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="">AppCalculadora</a>
+        <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+</div>
+
+<div class="@NavMenuCssClass nav-scrollable" @onclick="ToggleNavMenu">
+    <nav class="flex-column">
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                <span class="oi oi-home" aria-hidden="true"></span> Inicio
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="profile">
+                <span class="oi oi-person" aria-hidden="true"></span> Perfil
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="calculadora">
+                <span class="oi oi-calculator" aria-hidden="true"></span> Calculadora
+            </NavLink>
+        </div>
+@*        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="historicos">
+                <span class="oi oi-folder" aria-hidden="true"></span> Histórico
+            </NavLink>
+        </div>*@
+        @*   <div class="nav-item px-3">
+            <NavLink class="nav-link" href="modelos">
+                <span class="oi oi-grid-four-up" aria-hidden="true"></span> Modelos
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="contenedores">
+              <span class="oi oi-grid-four-up" aria-hidden="true"></span> Contenedores
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="plataformas">
+             <span class="oi oi-grid-four-up" aria-hidden="true"></span> Plataformas
+            </NavLink>
+        </div>     
+       <div class="nav-item px-3">
+            <NavLink class="nav-link" href="" @onclick="()=>expandSubMenu = !expandSubMenu">
+                <span class="oi oi-briefcase" aria-hidden="true"></span> Administración
+            </NavLink>
+            @if (expandSubMenu)
+            {
+                <div class="nav-item px-3">
+                    <NavLink class="navbar-expand" href="modelos">
+                        <span class="oi oi-grid-four-up" aria-hidden="true"></span> Modelos
+                    </NavLink>
+                </div>
+                <div class="nav-item px-3">
+                    <NavLink class="navbar-expand" href="contenedores">
+                        <span class="oi oi-grid-four-up" aria-hidden="true"></span> Contenedores
+                    </NavLink>
+                </div>
+                <div class="nav-item px-3">
+                    <NavLink class="navbar-expand" href="plataformas">
+                        <span class="oi oi-grid-four-up" aria-hidden="true"></span> Plataformas
+                    </NavLink>
+                </div>                
+            }
+        </div>*@
+    </nav>
+</div>
+
+@code {
+    private bool collapseNavMenu = true;
+
+    private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+
+    private void ToggleNavMenu()
+    {
+        collapseNavMenu = !collapseNavMenu;
+    }
+
+}

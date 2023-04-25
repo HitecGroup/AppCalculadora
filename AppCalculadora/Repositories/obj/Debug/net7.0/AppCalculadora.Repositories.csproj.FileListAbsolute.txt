@@ -1,0 +1,15 @@
+C:\DEV-HITEC\AppCalculadora\AppCalculadora\Repositories\bin\Debug\net7.0\AppCalculadora.Repositories.deps.json
+C:\DEV-HITEC\AppCalculadora\AppCalculadora\Repositories\bin\Debug\net7.0\AppCalculadora.Repositories.dll
+C:\DEV-HITEC\AppCalculadora\AppCalculadora\Repositories\bin\Debug\net7.0\AppCalculadora.Repositories.pdb
+C:\DEV-HITEC\AppCalculadora\AppCalculadora\Repositories\bin\Debug\net7.0\AppCalculadora.Shared.dll
+C:\DEV-HITEC\AppCalculadora\AppCalculadora\Repositories\bin\Debug\net7.0\AppCalculadora.Shared.pdb
+C:\DEV-HITEC\AppCalculadora\AppCalculadora\Repositories\obj\Debug\net7.0\AppCalculadora.Repositories.csproj.AssemblyReference.cache
+C:\DEV-HITEC\AppCalculadora\AppCalculadora\Repositories\obj\Debug\net7.0\AppCalculadora.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\DEV-HITEC\AppCalculadora\AppCalculadora\Repositories\obj\Debug\net7.0\AppCalculadora.Repositories.AssemblyInfoInputs.cache
+C:\DEV-HITEC\AppCalculadora\AppCalculadora\Repositories\obj\Debug\net7.0\AppCalculadora.Repositories.AssemblyInfo.cs
+C:\DEV-HITEC\AppCalculadora\AppCalculadora\Repositories\obj\Debug\net7.0\AppCalculadora.Repositories.csproj.CoreCompileInputs.cache
+C:\DEV-HITEC\AppCalculadora\AppCalculadora\Repositories\obj\Debug\net7.0\AppCalculadora.Repositories.csproj.CopyComplete
+C:\DEV-HITEC\AppCalculadora\AppCalculadora\Repositories\obj\Debug\net7.0\AppCalculadora.Repositories.dll
+C:\DEV-HITEC\AppCalculadora\AppCalculadora\Repositories\obj\Debug\net7.0\refint\AppCalculadora.Repositories.dll
+C:\DEV-HITEC\AppCalculadora\AppCalculadora\Repositories\obj\Debug\net7.0\AppCalculadora.Repositories.pdb
+C:\DEV-HITEC\AppCalculadora\AppCalculadora\Repositories\obj\Debug\net7.0\ref\AppCalculadora.Repositories.dll

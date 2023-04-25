@@ -1,0 +1,373 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\bin\\Release\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\obj\\Release\\net7.0\\build-gz\\7n00C5qz.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\obj\\Release\\net7.0\\scopedcss\\bundle\\AppCalculadora.Client.styles.css",
+      "PackagePath": "staticwebassets\\AppCalculadora.Client.styles.css"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\obj\\Release\\net7.0\\service-worker-assets.js",
+      "PackagePath": "staticwebassets\\service-worker-assets.js"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\obj\\Release\\net7.0\\service-worker\\service-worker.published.js",
+      "PackagePath": "staticwebassets\\service-worker.js"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\appsettings.json",
+      "PackagePath": "staticwebassets\\appsettings.json"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\css\\app_web.css",
+      "PackagePath": "staticwebassets\\css\\app_web.css"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\css\\bootstrap\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\css\\bootstrap\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\css\\bootstrap\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\css\\bootstrap\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\css\\bootstrap\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\css\\bootstrap\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\css\\bootstrap\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\css\\bootstrap\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\css\\bootstrap\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\css\\bootstrap\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\css\\bootstrap\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\css\\bootstrap\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\css\\bootstrap\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\css\\bootstrap\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\css\\bootstrap\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\css\\bootstrap\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\css\\bootstrap\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\css\\bootstrap\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\css\\bootstrap\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\css\\bootstrap\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\css\\bootstrap\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\css\\bootstrap\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\css\\bootstrap\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\css\\bootstrap\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\css\\bootstrap\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\css\\bootstrap\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\css\\bootstrap\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\css\\bootstrap\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\css\\bootstrap\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\css\\bootstrap\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\css\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\fonts\\MaterialIcons-Regular.woff",
+      "PackagePath": "staticwebassets\\fonts\\MaterialIcons-Regular.woff"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\fonts\\google\\5aUp9-KzpRiLCAt4Unrc-xIKmCU5oLlVnmZjtiu7.woff2",
+      "PackagePath": "staticwebassets\\fonts\\google\\5aUp9-KzpRiLCAt4Unrc-xIKmCU5oLlVnmZjtiu7.woff2"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\fonts\\google\\5aUp9-KzpRiLCAt4Unrc-xIKmCU5oLlVnmdjtiu7.woff2",
+      "PackagePath": "staticwebassets\\fonts\\google\\5aUp9-KzpRiLCAt4Unrc-xIKmCU5oLlVnmdjtiu7.woff2"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\fonts\\google\\5aUp9-KzpRiLCAt4Unrc-xIKmCU5oLlVnmhjtg.woff2",
+      "PackagePath": "staticwebassets\\fonts\\google\\5aUp9-KzpRiLCAt4Unrc-xIKmCU5oLlVnmhjtg.woff2"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\fonts\\google\\5aUp9-KzpRiLCAt4Unrc-xIKmCU5oLlVnmtjtiu7.woff2",
+      "PackagePath": "staticwebassets\\fonts\\google\\5aUp9-KzpRiLCAt4Unrc-xIKmCU5oLlVnmtjtiu7.woff2"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\fonts\\google\\5aUp9-KzpRiLCAt4Unrc-xIKmCU5oLlVnmxjtiu7.woff2",
+      "PackagePath": "staticwebassets\\fonts\\google\\5aUp9-KzpRiLCAt4Unrc-xIKmCU5oLlVnmxjtiu7.woff2"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\fonts\\google\\5aUp9-KzpRiLCAt4Unrc-xIKmCU5oPFTnmZjtiu7.woff2",
+      "PackagePath": "staticwebassets\\fonts\\google\\5aUp9-KzpRiLCAt4Unrc-xIKmCU5oPFTnmZjtiu7.woff2"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\fonts\\google\\5aUp9-KzpRiLCAt4Unrc-xIKmCU5oPFTnmdjtiu7.woff2",
+      "PackagePath": "staticwebassets\\fonts\\google\\5aUp9-KzpRiLCAt4Unrc-xIKmCU5oPFTnmdjtiu7.woff2"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\fonts\\google\\5aUp9-KzpRiLCAt4Unrc-xIKmCU5oPFTnmhjtg.woff2",
+      "PackagePath": "staticwebassets\\fonts\\google\\5aUp9-KzpRiLCAt4Unrc-xIKmCU5oPFTnmhjtg.woff2"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\fonts\\google\\5aUp9-KzpRiLCAt4Unrc-xIKmCU5oPFTnmtjtiu7.woff2",
+      "PackagePath": "staticwebassets\\fonts\\google\\5aUp9-KzpRiLCAt4Unrc-xIKmCU5oPFTnmtjtiu7.woff2"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\fonts\\google\\5aUp9-KzpRiLCAt4Unrc-xIKmCU5oPFTnmxjtiu7.woff2",
+      "PackagePath": "staticwebassets\\fonts\\google\\5aUp9-KzpRiLCAt4Unrc-xIKmCU5oPFTnmxjtiu7.woff2"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\fonts\\google\\5aUu9-KzpRiLCAt4Unrc-xIKmCU5qE52i1dC.woff2",
+      "PackagePath": "staticwebassets\\fonts\\google\\5aUu9-KzpRiLCAt4Unrc-xIKmCU5qE52i1dC.woff2"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\fonts\\google\\5aUu9-KzpRiLCAt4Unrc-xIKmCU5qER2i1dC.woff2",
+      "PackagePath": "staticwebassets\\fonts\\google\\5aUu9-KzpRiLCAt4Unrc-xIKmCU5qER2i1dC.woff2"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\fonts\\google\\5aUu9-KzpRiLCAt4Unrc-xIKmCU5qEV2i1dC.woff2",
+      "PackagePath": "staticwebassets\\fonts\\google\\5aUu9-KzpRiLCAt4Unrc-xIKmCU5qEV2i1dC.woff2"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\fonts\\google\\5aUu9-KzpRiLCAt4Unrc-xIKmCU5qEl2i1dC.woff2",
+      "PackagePath": "staticwebassets\\fonts\\google\\5aUu9-KzpRiLCAt4Unrc-xIKmCU5qEl2i1dC.woff2"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\fonts\\google\\5aUu9-KzpRiLCAt4Unrc-xIKmCU5qEp2iw.woff2",
+      "PackagePath": "staticwebassets\\fonts\\google\\5aUu9-KzpRiLCAt4Unrc-xIKmCU5qEp2iw.woff2"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\icon-512.png",
+      "PackagePath": "staticwebassets\\icon-512.png"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\images\\android_install.png",
+      "PackagePath": "staticwebassets\\images\\android_install.png"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\images\\favicon.ico",
+      "PackagePath": "staticwebassets\\images\\favicon.ico"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\images\\grupo_hitec_logo.svg",
+      "PackagePath": "staticwebassets\\images\\grupo_hitec_logo.svg"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\images\\iOS_install.png",
+      "PackagePath": "staticwebassets\\images\\iOS_install.png"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\images\\lock_logo.png",
+      "PackagePath": "staticwebassets\\images\\lock_logo.png"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\images\\profile.png",
+      "PackagePath": "staticwebassets\\images\\profile.png"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\images\\windows_install.png",
+      "PackagePath": "staticwebassets\\images\\windows_install.png"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\js\\bootstrap\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\js\\bootstrap\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\js\\bootstrap\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\js\\bootstrap\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\js\\bootstrap\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\js\\bootstrap\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\js\\bootstrap\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\js\\bootstrap\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\js\\bootstrap\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\js\\bootstrap\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\js\\bootstrap\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\js\\bootstrap\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Client\\wwwroot\\manifest.json",
+      "PackagePath": "staticwebassets\\manifest.json"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.AppCalculadora.Client.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.build.AppCalculadora.Client.props",
+      "PackagePath": "build\\AppCalculadora.Client.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.AppCalculadora.Client.props",
+      "PackagePath": "buildMultiTargeting\\AppCalculadora.Client.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildTransitive.AppCalculadora.Client.props",
+      "PackagePath": "buildTransitive\\AppCalculadora.Client.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

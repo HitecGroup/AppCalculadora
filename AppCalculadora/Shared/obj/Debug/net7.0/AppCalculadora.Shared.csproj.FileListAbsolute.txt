@@ -1,0 +1,12 @@
+C:\DEV-HITEC\AppCalculadora\AppCalculadora\Shared\bin\Debug\net7.0\AppCalculadora.Shared.deps.json
+C:\DEV-HITEC\AppCalculadora\AppCalculadora\Shared\bin\Debug\net7.0\AppCalculadora.Shared.dll
+C:\DEV-HITEC\AppCalculadora\AppCalculadora\Shared\bin\Debug\net7.0\AppCalculadora.Shared.pdb
+C:\DEV-HITEC\AppCalculadora\AppCalculadora\Shared\obj\Debug\net7.0\AppCalculadora.Shared.csproj.AssemblyReference.cache
+C:\DEV-HITEC\AppCalculadora\AppCalculadora\Shared\obj\Debug\net7.0\AppCalculadora.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\DEV-HITEC\AppCalculadora\AppCalculadora\Shared\obj\Debug\net7.0\AppCalculadora.Shared.AssemblyInfoInputs.cache
+C:\DEV-HITEC\AppCalculadora\AppCalculadora\Shared\obj\Debug\net7.0\AppCalculadora.Shared.AssemblyInfo.cs
+C:\DEV-HITEC\AppCalculadora\AppCalculadora\Shared\obj\Debug\net7.0\AppCalculadora.Shared.csproj.CoreCompileInputs.cache
+C:\DEV-HITEC\AppCalculadora\AppCalculadora\Shared\obj\Debug\net7.0\AppCalculadora.Shared.dll
+C:\DEV-HITEC\AppCalculadora\AppCalculadora\Shared\obj\Debug\net7.0\refint\AppCalculadora.Shared.dll
+C:\DEV-HITEC\AppCalculadora\AppCalculadora\Shared\obj\Debug\net7.0\AppCalculadora.Shared.pdb
+C:\DEV-HITEC\AppCalculadora\AppCalculadora\Shared\obj\Debug\net7.0\ref\AppCalculadora.Shared.dll

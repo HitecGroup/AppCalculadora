@@ -1,0 +1,273 @@
+﻿@page "/calculadora"
+
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.AspNetCore.Components.WebAssembly.Authentication
+@using AppCalculadora.Shared
+@using Services
+
+@inject HttpClient Http
+
+@inject IMarcaService MarcaService
+@inject IModeloService ModeloService
+@inject IDestinoService DestinoService
+@inject ICalculoService CalculoService
+@inject IIncotermService IncotermService
+@inject NotificationService NotificationService
+@attribute [Authorize]
+
+<PageTitle>Calculadora</PageTitle>
+
+@if (lstModelos == null)
+{
+	<p><em>Loading...</em></p>
+}
+else
+{
+	<div class="container-fluid">
+		<RadzenCard style="background-color:#F2F2F2;" class="mb-3 pb-2">
+			<div class="row mb-2">
+				<div class="col-md-6">
+					<div class="row">
+						<div class="col-md-4 align-items-center d-flex">
+							<RadzenLabel Text="Marca:" />
+						</div>
+						<div class="col-md-8">
+							<RadzenDropDown TValue="int" @bind-Value="idMar" Placeholder="Selecciona marca" Data=@(lstMarcas) TextProperty="Nombre" ValueProperty="idMarca" class="w-100" Change="@OnChange" />
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="row">
+						<div class="col-md-4 align-items-center d-flex">
+							<RadzenLabel Text="Modelo:" />
+						</div>
+						<div class="col-md-8">
+							<RadzenDropDown TValue="int" @bind-Value="idMod" Data=@(lstModelos.Where(m => m.IdMarca == idMar)) Placeholder="Selecciona modelo" TextProperty="ModeloSAP" ValueProperty="IdModelo" class="w-100" FilterCaseSensitivity="FilterCaseSensitivity.CaseInsensitive" AllowFiltering="true" />
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row mb-2">
+				<div class="col-md-6">
+					<div class="row">
+						<div class="col-md-4 align-items-center d-flex">
+						<RadzenLabel Text="INCOTERM:" />
+						</div>
+						<div class="col-md-8">
+							<RadzenDropDown TValue="int" @bind-Value="idInc" Placeholder="Selecciona" Data=@(lstIncoterms) TextProperty="Clave" ValueProperty="IdIncoterms" class="w-100" />
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="row mb-2">
+						<div class="col-md-4 align-items-center d-flex">
+							<RadzenLabel Text="Destino:" />
+						</div>
+						<div class="col-md-8">
+							<RadzenDropDown TValue="int" @bind-Value="idDest" Placeholder="Selecciona destino" Data=@(lstDestinos) TextProperty="Ciudad" ValueProperty="idDestino" class="w-100" />
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row mb-2">
+				<div class="col-md-6">
+					<div class="row mb-2">
+						<div class="col-md-4 align-items-center d-flex">
+							<RadzenLabel Text="Costo:" />
+						</div>
+						<div class="col-md-8">
+							<RadzenNumeric TValue="double" @bind-Value="vCosto" class="w-100"></RadzenNumeric>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="row mb-2">
+						<div class="col-md-12 align-items-center d-flex">
+							<RadzenButton ButtonStyle="ButtonStyle.Secondary" Text="Calcular" Click=@Calcular />
+						</div>
+					</div>
+				</div>
+			</div>
+		</RadzenCard>
+		<div class="container" style="font-size:calc(0.6em + 0.6vw);">
+		<table class="table">
+			<thead>
+				<tr>
+					<th style="width:40%;">&nbsp;</th>
+					<th style="width:30%; text-align:right;">Costo</th>
+					<th style="width:30%; text-align:right;">Profit</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Seguro:</td>
+						<td style="background-color:#f2f2f2; text-align:right;">@strseguro</td>
+						<td style="background-color:#b4cde1; text-align:right; color:black;">@strseguro_profit</td>
+				</tr>
+				<tr>
+					<td>Flete Marítimo:</td>
+						<td style="background-color:#f2f2f2; text-align:right;">@strfletemar</td>
+						<td style="background-color:#b4cde1; text-align:right; color:black;">@strfletemar_profit</td>
+				</tr>
+				<tr>
+					<td>Flete Terrestre:</td>
+						<td style="background-color:#f2f2f2; text-align:right;">@strfleteter</td>
+						<td style="background-color:#b4cde1; text-align:right; color:black;">@strfleteter_profit</td>
+				</tr>
+				<tr>
+					<td>Impuesto Aduanal:</td>
+						<td style="background-color:#f2f2f2; text-align:right;">@strimpuestoa</td>
+						<td style="background-color:#b4cde1; text-align:right; color:black;">@strimpuestoa_profit</td>
+				</tr>
+				<tr>
+					<td>AAM:</td>
+						<td style="background-color:#f2f2f2; text-align:right;">@straam</td>
+						<td style="background-color:#b4cde1; text-align:right; color:black;">@straam_profit</td>
+				</tr>
+				<tr>
+					<td>Maniobras:</td>
+						<td style="background-color:#f2f2f2; text-align:right;">@strmaniobras</td>
+						<td style="background-color:#b4cde1; text-align:right; color:black;">@strmaniobras_profit</td>
+				</tr>
+				<tr>
+					<td>Gastos Logísticos:</td>
+						<td style="background-color:#f2f2f2; text-align:right;">@strgl</td>
+						<td style="background-color:#b4cde1; text-align:right; color:black;">@strgl_profit</td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr style="font-weight:bold;">
+					<th style="text-align:right;">Total:</th>
+						<th style="text-align:right;">@strtotal</th>
+						<th style="text-align:right;">@strtotal_profit</th>
+				</tr>
+			</tfoot>
+		</table>
+		<div class="container" style="font-size:calc(0.5em + 0.5vw);">
+				<table class="table table-borderless table-sm">
+				<tbody>
+					<tr>
+					   <td style="width:80%; text-align:right;">Vigencia Marítima:</td>
+						<td style="background-color:#f2f2f2; text-align:right;">@strvigencia_maritimo</td>						
+					</tr>
+					<tr>
+							<td style="width:80%; text-align:right;">Vigencia Terrestre:</td>
+						<td style="background-color:#f2f2f2; text-align:right;">@strvigencia_terrestre</td>						
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	</div>
+}
+
+@code {
+	public IEnumerable<Marca> lstMarcas { get; set; }
+	public IEnumerable<Modelo> lstModelos { get; set; }
+	public IEnumerable<Destino> lstDestinos { get; set; }
+	public IEnumerable<Incoterm> lstIncoterms { get; set; }
+
+	public int idMar = 1;
+	public int idMod;
+	public int idDest = 1;
+	public int idInc = 1;
+	public double @vCosto = 0;
+
+	public string? Mensaje;
+
+	public string strseguro = "$0.00";
+	public string strseguro_profit = "$0.00";
+	public string strfletemar = "$0.00";
+	public string strfletemar_profit = "$0.00";
+	public string strfleteter = "$0.00";
+	public string strfleteter_profit = "$0.00";
+	public string strimpuestoa = "$0.00";
+	public string strimpuestoa_profit = "$0.00";
+	public string straam = "$0.00";
+	public string straam_profit = "$0.00";
+	public string strmaniobras = "$0.00";
+	public string strmaniobras_profit = "$0.00";
+	public string strgl = "$0.00";
+	public string strgl_profit = "$0.00";
+	public string strtotal = "$0.00";
+	public string strtotal_profit = "$0.00";
+	public string strvigencia_maritimo = "";
+	public string strvigencia_terrestre = "";
+
+	public Calculo xCalculo;
+
+	protected async override Task OnInitializedAsync()
+	{
+		try
+		{
+			lstMarcas = await MarcaService.GetAllMarca();
+			lstModelos = await ModeloService.GetAllModelos();
+			lstDestinos = await DestinoService.GetAllDestino();
+			lstIncoterms = await IncotermService.GetAllIncoterm();
+		}
+		catch (Exception e)
+		{
+			Mensaje = "Error:" + e.Message;
+		}
+	}
+
+	void OnChange(object value)
+	{
+		idMod = 0;
+	}
+
+	void ShowNotification(NotificationMessage message)
+	{
+		NotificationService.Notify(message);		
+	}
+
+	protected async Task Calcular()
+	{
+		if (idMod == 0)
+		{
+			ShowNotification(new NotificationMessage
+				{
+					Style = "position: fixed; top: 90%; left: 50%; transform: translate(-50%, -50%);",
+					Severity = NotificationSeverity.Error,
+					Summary = "",
+					Detail = "Selecciona un Modelo",
+					Duration = 3000
+				});
+		}
+		else {
+			if (vCosto > 0)
+			{
+				xCalculo = await CalculoService.GetCalculo(idMod, idInc, idDest, vCosto);
+				strseguro = xCalculo.seguro;
+				strseguro_profit = xCalculo.seguro_profit;
+				strfletemar = xCalculo.fletemar;
+				strfletemar_profit = xCalculo.fletemar_profit;
+				strfleteter = xCalculo.fleteter;
+				strfleteter_profit = xCalculo.fleteter_profit;
+				strimpuestoa = xCalculo.impuestoa;
+				strimpuestoa_profit = xCalculo.impuestoa_profit;
+				straam = xCalculo.aam;
+				straam_profit = xCalculo.aam_profit;
+				strmaniobras = xCalculo.maniobras;
+				strmaniobras_profit = xCalculo.maniobras_profit;
+				strgl = xCalculo.gl;
+				strgl_profit = xCalculo.gl_profit;
+				strtotal = xCalculo.total;
+				strtotal_profit = xCalculo.total_profit;
+				strvigencia_maritimo = xCalculo.vigencia_maritimo;
+				strvigencia_terrestre = xCalculo.vigencia_terrestre;
+			}
+			else
+			{
+				ShowNotification(new NotificationMessage
+					{
+						Style = "position: fixed; top: 90%; left: 50%; transform: translate(-50%, -50%);",
+						Severity = NotificationSeverity.Error,
+						Summary = "",
+						Detail = "Ingresa un costo mayor a cero",
+						Duration = 3000
+					});
+			}
+		}
+	}
+}

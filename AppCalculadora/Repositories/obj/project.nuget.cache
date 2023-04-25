@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "RlImWd4ONWtZYNAuUe14+ftg78yCrMq9rFp7Kc/iNEz9Ufnbl2fE6GhWhr3R4GR9FkTq9IehucD245kftRG/nQ==",
+  "success": true,
+  "projectFilePath": "C:\\DEV-HITEC\\AppCalculadora\\AppCalculadora\\Repositories\\AppCalculadora.Repositories.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jbrito\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512"
+  ],
+  "logs": []
+}

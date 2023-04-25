@@ -1,0 +1,33 @@
+@inherits LayoutComponentBase
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.Graph
+@inject Microsoft.Graph.GraphServiceClient GraphServiceClient
+
+<RadzenDialog />
+<RadzenNotification />
+<RadzenContextMenu />
+<RadzenTooltip />
+
+<div class="page">
+    <div class="sidebar">
+        <NavMenu />
+    </div>
+
+    <main>
+        <div class="top-row px-4 auth">
+            <a class="navbar-brand" href="profile">
+                <img src="@photo" style="width:40px;" class="rounded-pill">
+            </a>
+            <LoginDisplay />
+            <a href="ayuda">Ayuda</a>
+        </div>
+
+        <article class="content px-2">
+            @Body
+        </article>
+    </main>
+</div>
+@code {
+    //User? user;
+    string? photo = "images/profile.png";
+}
